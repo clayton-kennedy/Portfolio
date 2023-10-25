@@ -16,10 +16,13 @@
      width: 400px;
      height: 520px;
      overflow: hidden;
+     margin: 5em auto;
+     border: 1px solid black;
 }
 #imgProject {
      width: 400px;
      height: 450px;
+     object-fit: contain;
 }
 #imgProject:hover {
      background-color: #00000049;
