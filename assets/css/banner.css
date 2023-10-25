@@ -1,0 +1,44 @@
+
+#banner {
+     width: 100%;
+     height: 930px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-evenly;
+     padding: 0 2em;
+}
+#banner div{
+     display: flex;
+     flex-direction: column;
+}
+.textBanner1 {
+     color: red;
+     font-size: 3em;
+     font-weight: 400;
+     text-shadow: 0px 3px 5px rgb(155, 155, 155);
+}
+.textBanner2 {
+     color: rgb(0, 0, 0);
+     font-size: 6em;
+     font-weight: 500;
+     text-shadow: 0px 3px 5px rgb(155, 155, 155);
+}
+.textBanner3 {
+     margin: 3em 0;
+     color: #0008ff;
+     font-size: 2em;
+     font-weight: 400;
+     text-shadow: 0px 3px 5px rgb(203, 203, 203);
+}
+.imgBanner {
+     justify-content: flex-end;
+}
+.imgBanner img{
+     width: 35px;
+     height: 35px;
+}
+.imgBanner img:hover{
+     transition: 0.5s;
+     transform: scale(1.6);
+}
