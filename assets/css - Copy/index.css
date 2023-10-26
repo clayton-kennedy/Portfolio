@@ -24,24 +24,12 @@ a {
 a:after {
      color: black;
 }
-@media (min-width: 200px) {
-     .section_tittle {
-          font-size: 3em;
-          text-align: center;
-          font-weight: bolder;
-          background: linear-gradient(to bottom, #000000, #939393c5, #ffffff0d);
-          background-clip: text;
-          -webkit-background-clip: text;
-          color: transparent;
-     } 
-}
-@media (min-width: 1000px) {
-     .section_tittle {
-          font-size: 6em;
-     } 
-}
-@media (min-width: 1500px) {
-     .section_tittle {
-          font-size: 7.2em;
-     } 
-}
+.section_tittle {
+     font-size: 11em;
+     text-align: center;
+     font-weight: bolder;
+     background: linear-gradient(to bottom, #000000, #93939366, #ffffff0d);
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+} 

@@ -1,19 +1,16 @@
-@media (min-width: 200px) {
-     
+
 #banner {
      width: 100%;
-     height: auto;
+     height: 930px;
      display: flex;
-     flex-direction: column;
+     flex-direction: row;
      align-items: center;
-     justify-content: center;
-     padding: 1em;
-     padding-top: 5em;
+     justify-content: space-evenly;
+     padding: 0 2em;
 }
 #banner div{
      display: flex;
      flex-direction: column;
-     width: 100%;
 }
 .textBanner1 {
      color: red;
@@ -23,12 +20,12 @@
 }
 .textBanner2 {
      color: rgb(0, 0, 0);
-     font-size: 4em;
+     font-size: 6em;
      font-weight: 500;
      text-shadow: 0px 3px 5px rgb(155, 155, 155);
 }
 .textBanner3 {
-     color: red;
+     color: #0008ff;
      font-size: 2.5em;
      font-weight: 400;
      text-shadow: 0px 3px 5px rgb(203, 203, 203);
@@ -38,7 +35,7 @@
 }
 .textBanner3, #textPlaceholder{
      margin: 2em 0;
-     margin-top: 2em;
+     margin-top: 6em;
 }
 .imgBanner {
      justify-content: flex-end;
@@ -47,24 +44,7 @@
      width: 35px;
      height: 35px;
 }
-}
-@media (min-width: 750px) {
-     #banner {
-          flex-direction: row;
-          justify-content: space-between;
-     }
-     #myPicture {
-          width: 300px;
-          height: 300px;
-     }
-     .textBanner1 {
-          font-size: 2em;
-     }
-     .textBanner2 {
-          font-size: 3em;
-          font-weight: 500;
-     }
-     .textBanner3 {
-          font-size: 2em;
-     }
+.imgBanner img:hover{
+     transition: 0.5s;
+     transform: scale(1.6);
 }

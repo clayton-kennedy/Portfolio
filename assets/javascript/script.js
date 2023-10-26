@@ -1,25 +1,18 @@
 
-// const cardProject = document.querySelector('#cardProject');
-// const bgImgProject = document.querySelector('.bgImgProject');
-// const btnVisualizar = document.querySelector('#btnVisualizar');
-// const btnRepositorio = document.querySelector('#btnRepositorio');
+const menuHamburguer = document.querySelector('#menu-hamb-icon');
+const linksMenu = document.querySelector('.linksMenu');
 
-// bgImgProject.addEventListener('mouseover', () => {
-//      cardProject1.style.backgroundColor = '#0000006b';
-//      cardProject1.style.backgroundSize ='120%';
-//      cardProject1.style.transition = '0.6s';
-//      cardProject1.style.filter = 'none';
-//      btnVisualizar.style.display = 'flex';
-//      btnRepositorio.style.display = 'flex';
-// });
+menuHamburguer.addEventListener('click', () => {
+    linksMenu.classList.toggle('hide');
+});
+const menuItems = document.querySelectorAll('.nav-li');
+menuItems.forEach((menuItem) => {
+    menuItem.addEventListener('click', () => {
+        linksMenu.classList.add('hide');
+    });
+});
 
-// cardProject.addEventListener('mouseout', () => {
-//      cardProject1.style.backgroundSize ='10%';
-//      cardProject1.style.transition = '0.3s';
-//      cardProject1.style.filter = 'grayscale(100%)';
-//      btnVisualizar.style.display = 'none';
-//      btnRepositorio.style.display = 'none';
-// });
+
 
 document.addEventListener("DOMContentLoaded", function() {
     const textBanner = document.querySelector('.textBanner3');
