@@ -25,11 +25,17 @@
      text-shadow: 0px 3px 5px rgb(155, 155, 155);
 }
 .textBanner3 {
-     margin: 3em 0;
      color: #0008ff;
-     font-size: 2em;
+     font-size: 2.5em;
      font-weight: 400;
      text-shadow: 0px 3px 5px rgb(203, 203, 203);
+}
+#textPlaceholder {
+     color: white;
+}
+.textBanner3, #textPlaceholder{
+     margin: 2em 0;
+     margin-top: 6em;
 }
 .imgBanner {
      justify-content: flex-end;
