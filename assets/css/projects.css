@@ -71,6 +71,12 @@
      color: white;
      box-shadow: 2px 2px 3px gray;
 }
+#btnVisualizar a, #btnRepositorio a {
+     color: white;
+}
+#btnVisualizar a:hover, #btnRepositorio a:hover {
+     color: black;
+}
 #btnVisualizar:hover, #btnRepositorio:hover {
      background-color: white;
      color: black;
