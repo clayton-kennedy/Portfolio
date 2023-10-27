@@ -4,6 +4,7 @@ const linksMenu = document.querySelector('.linksMenu');
 
 menuHamburguer.addEventListener('click', () => {
     linksMenu.classList.toggle('hide');
+    console.log('Clicado');
 });
 const menuItems = document.querySelectorAll('.nav-li');
 menuItems.forEach((menuItem) => {
