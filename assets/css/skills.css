@@ -160,17 +160,18 @@
      }
      .softSkills div {
           width: 380px;
-          height: 150px;
+          height: 90px;
           font-size: 1.5em;
           padding: 1em;
           margin: 5px auto;
+          font-weight: 400;
      }
      .hardSkills {
           grid-template-columns: 1fr 1fr 1fr 1fr;
      }
      .hardSkills div {
           width: 290px;
-          height: 100px;
+          height: 90px;
           font-size: 1.3em;
           margin: 5px auto;
      }
@@ -178,12 +179,12 @@
           font-size: 3em;
      }
      .softSkills img {
-          width: 70px;
-          height: 70px;
+          width: 50px;
+          height: 50px;
      }
      .hardSkills img {
-          width: 70px;
-          height: 70px;
+          width: 50px;
+          height: 50px;
      }
 }
 @media (min-width: 1500px) {
