@@ -179,3 +179,118 @@
           height: 70px;
      }
 }
+@media (min-width: 1500px) {
+
+     #skills {
+          width: 60%;
+          height: auto;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin: 0 auto;
+     }
+     .spanTech {
+          width: 45%;
+          margin: 2em auto;
+          padding: 1em;
+          text-align: justify;
+          font-size: 2em;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+     }
+     .habilities {
+          width: 55%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          padding: 1em;
+     }
+     .titleSkills {
+          font-size: 2.4em;
+          font-weight: bold;
+          text-shadow: 0px 1px 10px #0008ffb3;
+     }
+     /* Soft Skills */
+     .softSkills {
+          width: 100%;
+          height: 220px;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          align-items: flex-start;
+          justify-content: flex-start;
+          padding: 2em;
+     }
+     .softSkills img {
+          width: 50px;
+          height: 50px;
+     }
+     .softSkills div {
+          width: 270px;
+          height: 70px;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          padding: 0 2em;
+          background-color: #ededed;
+          border-radius: 1em;
+          overflow: hidden;
+          margin: 3px;
+          filter: grayscale(100%);
+          font-weight: 500;
+     }
+     .softSkills div:hover {
+          cursor: pointer;
+          filter: none;
+          background-color: #97bdff;
+          border: 1px solid #001aff;
+     }
+     .softSkills span {
+          font-size: 1.3em;
+          margin: 0 0.3em;
+     }
+     /* Hard Skills */
+     .hardSkills {
+          width: 100%;
+          height: 300px;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          align-items: flex-start;
+          justify-content: flex-start;
+          padding: 2em;
+     }
+     .hardSkills img {
+          width: 50px;
+          height: 50px;
+     }
+     .hardSkills div {
+          width: 270px;
+          height: 70px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          padding: 0 2em;
+          background-color: #ededed;
+          border-radius: 1em;
+          overflow: hidden;
+          margin: 3px;
+          filter: grayscale(100%);
+          font-weight: 500;
+     }
+     .hardSkills div:hover {
+          cursor: pointer;
+          filter: none;
+          background-color: #97bdff;
+          border: 1px solid #001aff;
+     }
+     .hardSkills span {
+          font-size: 1.3em;
+          margin: 0 0.3em;
+     }
+     .imgJS {
+          border-radius: 10px;
+     }
+}

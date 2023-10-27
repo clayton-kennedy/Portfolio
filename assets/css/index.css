@@ -42,6 +42,12 @@ a:after {
 }
 @media (min-width: 1500px) {
      .section_tittle {
-          font-size: 7.2em;
+          font-size: 11em;
+          text-align: center;
+          font-weight: bolder;
+          background: linear-gradient(to bottom, #000000, #93939366, #ffffff0d);
+          background-clip: text;
+          -webkit-background-clip: text;
+          color: transparent;
      } 
 }
