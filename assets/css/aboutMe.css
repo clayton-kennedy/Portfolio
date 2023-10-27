@@ -130,12 +130,15 @@
 }
 @media (min-width: 750px) {
      #aboutMe {
-          height: 850px;
+          height: 1050px;
      }
      .expProf div {
           width: 230px;
           height: 90px;
           font-size: 1.2em;
+     }
+     .spanAbout {
+          font-size: 1.3em;
      }
      .cursos {
           grid-template-columns: 1fr 1fr;
@@ -152,7 +155,7 @@
           font-size: 2em;
      }
      .spanAbout {
-          font-size: 1.8em;
+          font-size: 1.3em;
      }
      .expProf {
           display: flex;
@@ -171,32 +174,32 @@
      .cursos div {
           width: 330px;
           height: 110px;
-          font-size: 1.2em;
+          font-size: 1em;
      }
 }
-@media (min-width: 1500px) {
-
+@media (min-width: 1250px) {
      #aboutMe {
-          width: 70%;
-          height: auto;
+          width: 100%;
+          height: 850px;
           display: flex;
           flex-direction: row;
-          justify-content: space-between;
+          align-items: flex-start;
+          justify-content: flex-start;
           margin: 0 auto;
      }
      .spanAbout {
-          width: auto;
+          width: 40%;
           margin: 0 auto;
           padding: 1em;
           text-align: justify;
-          font-size: 2em;
+          font-size: 1.5em;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: flex-start;
      }
      .experiences {
-          width: 50%;
+          width: 60%;
           height: 550px;
           display: flex;
           flex-direction: column;
@@ -207,7 +210,7 @@
      .titleExperiences {
           font-size: 2em;
           font-weight: bold;
-          text-shadow: 0px 1px 10px #0008ff87;
+          text-shadow: 0px 1px 10px rgba(255, 0, 0, 0.547);
      }
      /* Experiências */
      .expProf {
@@ -220,25 +223,25 @@
           padding: 2em;
      }
      .expProf div {
-          width: 270px;
-          height: 82px;
+          width: 240px;
+          height: 150px;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          padding: 1em 2em;
+          padding: 0;
           background-color: #ededed;
           border-radius: 1em;
           overflow: hidden;
-          margin: 3px;
+          margin: 5px;
           filter: grayscale(100%);
           font-weight: 500;
      }
      .expProf div:hover {
           cursor: pointer;
           filter: none;
-          background-color: #97bdff;
-          border: 1px solid #001aff;
+          background-color: rgb(227, 131, 131);
+          border: 1px solid red;
      }
      .expProf span {
           font-size: 1.1em;
@@ -247,24 +250,24 @@
      /* Cursos */
      .cursos {
           width: 100%;
-          height: 350px;
+          height: auto;
           display: grid;
           grid-template-columns: 1fr 1fr;
           align-items: flex-start;
           justify-content: flex-start;
-          padding: 2em;
+          padding: 1em;
      }
      .cursos img {
           width: 50px;
           height: 50px;
      }
      .cursos div {
-          width: 402px;
-          height: 85px;
+          width: 360px;
+          height: 100px;
           display: flex;
-          align-items: center;
+          align-items: flex-start;
           justify-content: flex-start;
-          padding: 1em 2em;
+          padding: 1em;
           background-color: #ededed;
           border-radius: 1em;
           overflow: hidden;
@@ -275,8 +278,8 @@
      .cursos div:hover {
           cursor: pointer;
           filter: none;
-          background-color: #97bdff;
-          border: 1px solid #001aff;
+          background-color: rgb(227, 131, 131);
+          border: 1px solid red;
      }
      .cursos span {
           font-size: 1.3em;
@@ -284,5 +287,25 @@
      }
      .imgJS {
           border-radius: 10px;
+     }
+}
+@media (min-width: 1500px) {
+     #aboutMe {
+          width: 80%;
+          margin: 0 auto;
+     }
+     .expProf div {
+          width: 220px;
+          height: 100px;
+          padding: 0;
+          font-size: 1em;
+          margin: 0;
+     }
+     .cursos {
+          grid-template-columns: 1fr 1fr;
+     }
+     .cursos div {
+          width: 350px;
+          height: 100px;
      }
 }

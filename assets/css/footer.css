@@ -13,6 +13,7 @@
 #contacts span {
      font-size: 2em;
      margin: 1em auto;
+     text-align: center;
 }
 .socialMedia {
      width: 100%;
@@ -112,8 +113,14 @@
           flex-direction: row;
      }
      .socialMedia {
-          align-items: flex-start;
+          display: flex;
+          align-items: center;
           justify-content: flex-start;
+     }
+     .socialMedia img {
+          width: 80px;
+          height: 80px;
+          margin: 0 5px;
      }
 }
 @media (min-width: 1500px) {

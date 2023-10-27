@@ -2,12 +2,12 @@
 @media (min-width: 200px) {
 .topMenu {
      height: 4em;
-     width: 99%;
+     width: 100%;
      background-color: #ededed;
      display: flex;
      flex-direction: row;
      align-items: center;
-     justify-content: space-between;
+     justify-content: space-around;
      padding: 0 1em;
      position: fixed;
      z-index: 2;
@@ -52,8 +52,10 @@
      background-color: #ffffff;
 }
 }
-
 @media (min-width: 750px) {
+     .topMenu {
+          justify-content: space-between;
+     }
      .linksMenu {
           margin-top: 18em;
           width: 50%;
@@ -61,59 +63,71 @@
           justify-content: center;
           align-items: flex-end;
      }
-     .linksMenu li {
-          
-     }
 }
 @media (min-width: 1000px) {
+     .topMenu {
+          height: 3em;
+          width: 100%;
+          padding: 1em;
+     }
      #menu-hamb-icon {
           display: none;
+     }
+     .hide {
+          display: none;
+     }
+     .textTopMenu {
+          font-size: 1.5em;
+          color: red;
+          z-index: 11;
+          text-align: center;
      }
      .linksMenu {
           display: flex;
           flex-direction: row;
+          height: auto;
+          margin: auto;
+          margin-top: 0;
+          font-size: 1em;
+     }
+     .linksMenu li {
+          padding: 1em;
+     }
+     .linksMenu li:hover {
+          background-color: #ffffff;
      }
 }
 @media (min-width: 1500px) {
-     
-.topMenu {
-     height: 4em;
-     width: 100%;
-     background-color: #ededed;
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: space-between;
-     padding: 0 3em;
-     position: fixed;
-     z-index: 1;
-     margin: auto;
-}
-#menu-hamb-icon {
-     width: 3em;
-     height: 3em;
-     display: none;
-}
-.textTopMenu {
-     font-size: 2em;
-     color: #0008ff;
-}
-.topMenu ul {
-     list-style: none;
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: flex-end;
-     font-size: 1.3em;
-     font-weight: 500;
-     gap: 0.2em;
-}
-.topMenu li {
-     padding: 1.5em 1em;
-     height: 3.1em;
-     width: auto;
-}
-.topMenu li:hover {
-     background-color: #ffffff;
-}
+     .topMenu {
+          height: 3em;
+          width: 100%;
+          padding: 0 2em;
+     }
+     #menu-hamb-icon {
+          display: none;
+     }
+     .hide {
+          display: none;
+     }
+     .textTopMenu {
+          font-size: 1.5em;
+          color: red;
+          z-index: 11;
+          text-align: center;
+     }
+     .linksMenu {
+          display: flex;
+          flex-direction: row;
+          align-self: center;
+          justify-content: center;
+          text-align: center;
+          height: auto;
+          margin: auto;
+     }
+     .linksMenu li {
+          padding: 1em 0;
+     }
+     .linksMenu li:hover {
+          background-color: #ffffff;
+     }
 }
