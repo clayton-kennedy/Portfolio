@@ -2,7 +2,7 @@
 @media (min-width: 200px) {
 .topMenu {
      height: 4em;
-     width: 100%;
+     width: 99%;
      background-color: #ededed;
      display: flex;
      flex-direction: row;

@@ -187,6 +187,59 @@
           height: 50px;
      }
 }
+@media (min-width: 1250px) {
+     #skills {
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-direction: row;
+     }
+     .habilities {
+          width: 50%;
+     }
+     .softSkills {
+          grid-template-columns: 1fr 1fr;
+     }
+     .softSkills div {
+          width: 300px;
+          height: 70px;
+          align-items: center;
+          justify-content: flex-start;
+          padding: 0.7em;
+          font-size: 0.9em;
+          margin: 5px;
+     }
+     .softSkills div:hover {
+          background-color: rgb(227, 131, 131);
+          border: 1px solid red;
+     }
+     /* Hard Skills */
+     .hardSkills {
+          width: 100%;
+          grid-template-columns: 1fr 1fr 1fr;
+          padding: 1em;
+     }
+     .hardSkills div {
+          width: 195px;
+          height: 70px;
+          padding: 0.5em 1em;
+          font-size: 0.9em;
+          margin: 5px;
+     }
+     .hardSkills div:hover {
+          cursor: pointer;
+          filter: none;
+          background-color: rgb(227, 131, 131);
+          border: 1px solid red;
+     }
+     .hardSkills span {
+          font-size: 1.3em;
+          margin: 0 0.3em;
+     }
+     .imgJS {
+          border-radius: 10px;
+     }
+}
 @media (min-width: 1500px) {
      #skills {
           width: 60%;
@@ -238,8 +291,8 @@
      .softSkills div:hover {
           cursor: pointer;
           filter: none;
-          background-color: #97bdff;
-          border: 1px solid #001aff;
+          background-color: rgb(227, 131, 131);
+          border: 1px solid red;
      }
      .softSkills span {
           font-size: 1.3em;
@@ -269,8 +322,8 @@
      .hardSkills div:hover {
           cursor: pointer;
           filter: none;
-          background-color: #97bdff;
-          border: 1px solid #001aff;
+          background-color: rgb(227, 131, 131);
+          border: 1px solid red;
      }
      .hardSkills span {
           font-size: 1.3em;

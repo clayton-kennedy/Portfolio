@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
     mostrarTexto();
 });
 
-
-
-
-
+const nome = document.querySelector('#nome');
+const email = document.querySelector('#email');
+const mensagem = document.querySelector('#mensagem');
+const buttonEnviar = document.querySelector('#buttonEnviar');
