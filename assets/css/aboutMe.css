@@ -238,7 +238,6 @@
           border-radius: 1em;
           overflow: hidden;
           margin: 5px;
-          filter: grayscale(100%);
           font-weight: 400;
           font-size: 1em;
      }
@@ -277,7 +276,6 @@
           border-radius: 1em;
           overflow: hidden;
           margin: 3px;
-          filter: grayscale(100%);
           font-weight: 500;
      }
      .cursos div:hover {
