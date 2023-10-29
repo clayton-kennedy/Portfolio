@@ -159,9 +159,9 @@
           text-indent: 12%;
      }
      .softSkills div {
-          width: 380px;
+          width: 320px;
           height: 90px;
-          font-size: 1.5em;
+          font-size: 1.2em;
           padding: 1em;
           margin: 5px auto;
           font-weight: 400;
@@ -170,10 +170,10 @@
           grid-template-columns: 1fr 1fr 1fr 1fr;
      }
      .hardSkills div {
-          width: 290px;
+          width: 230px;
           height: 90px;
           font-size: 1.3em;
-          margin: 5px auto;
+          margin: 5px;
      }
      .titleSkills {
           font-size: 3em;
