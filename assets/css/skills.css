@@ -63,7 +63,6 @@
      flex-wrap: wrap;
 }
 .softSkills div:hover {
-     cursor: pointer;
      filter: none;
      background-color: rgb(227, 131, 131);
      border: 1px solid red;
@@ -100,7 +99,6 @@
      font-weight: 400;
 }
 .hardSkills div:hover {
-     cursor: pointer;
      filter: none;
      background-color: rgb(227, 131, 131);
      border: 1px solid red;
@@ -227,7 +225,6 @@
           margin: 5px;
      }
      .hardSkills div:hover {
-          cursor: pointer;
           filter: none;
           background-color: rgb(227, 131, 131);
           border: 1px solid red;
@@ -289,7 +286,6 @@
           margin: 5px;
      }
      .softSkills div:hover {
-          cursor: pointer;
           filter: none;
           background-color: rgb(227, 131, 131);
           border: 1px solid red;
@@ -320,7 +316,6 @@
           font-size: 1em;
      }
      .hardSkills div:hover {
-          cursor: pointer;
           filter: none;
           background-color: rgb(227, 131, 131);
           border: 1px solid red;
