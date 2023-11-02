@@ -2,7 +2,7 @@
 @media (min-width: 200px) {
 .topMenu {
      height: 4em;
-     width: 99%;
+     width: 100%;
      background-color: #ededed;
      display: flex;
      flex-direction: row;
@@ -44,9 +44,6 @@
      padding: 1.5em 1em;
      height: 3.1em;
      width: 100vw;
-}
-.linksMenu li:hover {
-     background-color: #ffffff;
 }
 .hide {
      display: none;
@@ -94,10 +91,21 @@
           width: 40%;
      }
      .linksMenu li {
+          position: relative;
           padding: 1em;
      }
-     .linksMenu li:hover {
-          background-color: #ffffff;
+     .linksMenu li::after {
+          content: ' ';
+          width: 0%;
+          height: 2.5px;
+          background-color: red;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          transition: 0.35s ease-in-out;
+     }
+     .linksMenu li:hover::after {
+          width: 100%;
      }
 }
 @media (min-width: 1500px) {
@@ -130,7 +138,7 @@
      .linksMenu li {
           padding: 1em 0;
      }
-     .linksMenu li:hover {
-          background-color: #ffffff;
+     .linksMenu li::after {
+          height: 3px;
      }
 }

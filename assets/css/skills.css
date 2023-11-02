@@ -6,6 +6,7 @@
      height: auto;
      display: flex;
      flex-direction: column;
+     align-items: center;
      justify-content: flex-start;
      margin: 0 auto;
 }
@@ -40,7 +41,7 @@
      height: auto;
      display: grid;
      grid-template-columns: 1fr 1fr;
-     align-items: flex-start;
+     align-items: center;
      justify-content: flex-start;
      padding: 0;
 }
@@ -117,7 +118,7 @@
           height: auto;
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
-          align-items: flex-start;
+          align-items: center;
           justify-content: flex-start;
           padding: 0 0.5em;
      }
@@ -164,6 +165,10 @@
           margin: 5px auto;
           font-weight: 400;
      }
+     .softSkills img {
+          width: 50px;
+          height: 50px;
+     }
      .hardSkills {
           grid-template-columns: 1fr 1fr 1fr 1fr;
      }
@@ -175,10 +180,6 @@
      }
      .titleSkills {
           font-size: 3em;
-     }
-     .softSkills img {
-          width: 50px;
-          height: 50px;
      }
      .hardSkills img {
           width: 50px;
@@ -193,18 +194,18 @@
           flex-direction: row;
      }
      .habilities {
-          width: 50%;
+          width: 65%;
      }
      .softSkills {
           grid-template-columns: 1fr 1fr;
      }
      .softSkills div {
-          width: 300px;
+          width: 340px;
           height: 70px;
           align-items: center;
           justify-content: flex-start;
-          padding: 0.7em;
-          font-size: 0.9em;
+          padding: 0.7em 1em;
+          font-size: 1.1em;
           margin: 5px;
      }
      .softSkills div:hover {
@@ -218,7 +219,7 @@
           padding: 1em;
      }
      .hardSkills div {
-          width: 195px;
+          width: 220px;
           height: 70px;
           padding: 0.5em 1em;
           font-size: 0.9em;

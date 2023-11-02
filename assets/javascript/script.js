@@ -1,3 +1,4 @@
+/* ======================= Menu hamb. ======================= */
 
 const menuHamburguer = document.querySelector('#menu-hamb-icon');
 const linksMenu = document.querySelector('.linksMenu');
@@ -13,7 +14,7 @@ menuItems.forEach((menuItem) => {
     });
 });
 
-
+/* =======================Título digitando ======================= */
 
 document.addEventListener("DOMContentLoaded", function() {
     const textBanner = document.querySelector('.textBanner3');
@@ -45,7 +46,24 @@ document.addEventListener("DOMContentLoaded", function() {
     mostrarTexto();
 });
 
-const nome = document.querySelector('#nome');
-const email = document.querySelector('#email');
-const mensagem = document.querySelector('#mensagem');
-const buttonEnviar = document.querySelector('#buttonEnviar');
+/* ======================= Modal projetos ======================= */
+
+const btnModalCardProject = document.querySelectorAll('.btnModalCardProject');
+const modalCardProject = document.querySelectorAll('.modalCardProject');
+
+btnModalCardProject.forEach((btn, index) => {
+    btn.addEventListener('click', () => {
+        modalCardProject[index].style.display = 'flex';
+        btn.style.display = 'none';
+    });
+});
+
+const btnCloseModal = document.querySelectorAll('.material-symbols-outlined');
+
+btnCloseModal.forEach((btn, index) => {
+    btn.addEventListener('click', () => {
+        modalCardProject[index].style.display = 'none';
+        btnModalCardProject[index].style.display = 'flex';
+    });
+});
+
