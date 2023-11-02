@@ -58,7 +58,7 @@ btnModalCardProject.forEach((btn, index) => {
     });
 });
 
-const btnCloseModal = document.querySelectorAll('.material-symbols-outlined');
+const btnCloseModal = document.querySelectorAll('.iconCloseModal');
 
 btnCloseModal.forEach((btn, index) => {
     btn.addEventListener('click', () => {

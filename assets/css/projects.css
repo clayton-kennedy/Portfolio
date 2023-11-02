@@ -49,6 +49,9 @@
      font-size: 2em;
      color: red;
 }
+.iconCloseModal {
+     display: none;
+}
 #imgProject {
      display: flex;
      align-items: center;
@@ -166,12 +169,16 @@
           text-align: center;
           color: red;
      }
-     .material-symbols-outlined {
+     .iconCloseModal {
+          display: flex;
           position: absolute;
           right: 0;
           top: 0;
+          z-index: 150;
           cursor: pointer;
           font-size: 5em;
+          width: 0.5em;
+          height: 0.5em;
      }
      #btnVisualizar, #btnRepositorio {
           display: flex;
