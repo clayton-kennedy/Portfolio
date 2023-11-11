@@ -12,7 +12,7 @@
 }
 .spanTech {
      width: 100%;
-     margin: auto;
+     margin: 1em auto;
      padding: 1em;
      text-align: justify;
      font-size: 1em;
@@ -65,7 +65,7 @@
 }
 .softSkills div:hover {
      filter: none;
-     background-color: rgb(227, 131, 131);
+     background-color: #ff000041;
      border: 1px solid red;
 }
 .softSkills span {
@@ -101,7 +101,7 @@
 }
 .hardSkills div:hover {
      filter: none;
-     background-color: rgb(227, 131, 131);
+     background-color: #ff000041;
      border: 1px solid red;
 }
 .hardSkills span {
@@ -193,6 +193,10 @@
           display: flex;
           flex-direction: row;
      }
+     .spanTech {
+          align-items: flex-start;
+          justify-content: flex-start;
+     }
      .habilities {
           width: 65%;
      }
@@ -209,7 +213,6 @@
           margin: 5px;
      }
      .softSkills div:hover {
-          background-color: rgb(227, 131, 131);
           border: 1px solid red;
      }
      /* Hard Skills */
@@ -227,7 +230,6 @@
      }
      .hardSkills div:hover {
           filter: none;
-          background-color: rgb(227, 131, 131);
           border: 1px solid red;
      }
      .hardSkills span {
@@ -251,8 +253,6 @@
      .spanTech {
           width: 45%;
           font-size: 1.4em;
-          align-items: flex-start;
-          justify-content: flex-start;
      }
      .habilities {
           width: 65%;
@@ -277,7 +277,7 @@
           height: 50px;
      }
      .softSkills div {
-          width: 350px;
+          width: 380px;
           height: 70px;
           display: flex;
           align-items: flex-start;
@@ -288,7 +288,6 @@
      }
      .softSkills div:hover {
           filter: none;
-          background-color: rgb(227, 131, 131);
           border: 1px solid red;
      }
      .softSkills span {
@@ -311,14 +310,13 @@
           height: 50px;
      }
      .hardSkills div {
-          width: 230px;
+          width: 250px;
           height: 70px;
           padding: 0.5em 1em;
           font-size: 1em;
      }
      .hardSkills div:hover {
           filter: none;
-          background-color: rgb(227, 131, 131);
           border: 1px solid red;
      }
      .hardSkills span {

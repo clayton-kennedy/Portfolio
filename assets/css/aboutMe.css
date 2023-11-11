@@ -67,7 +67,7 @@
      font-weight: 400;
 }
 .expProf div:hover {
-     background-color: rgb(227, 131, 131);
+     background-color: #ff000041;
 }
 .expProf span {
      text-align: center;
@@ -104,7 +104,7 @@
 .cursos div:hover {
      cursor: pointer;
      filter: none;
-     background-color: rgb(227, 131, 131);
+     background-color: #ff000041;
 }
 .cursos span {
      font-size: 1em;
@@ -243,7 +243,6 @@
      }
      .expProf div:hover {
           filter: none;
-          background-color: rgb(227, 131, 131);
           border: 1px solid red;
      }
      .expProf span {
@@ -279,7 +278,6 @@
      }
      .cursos div:hover {
           filter: none;
-          background-color: rgb(227, 131, 131);
           border: 1px solid red;
      }
      .cursos span {
@@ -306,7 +304,7 @@
           grid-template-columns: 1fr 1fr;
      }
      .cursos div {
-          width: 350px;
+          width: 420px;
           height: 100px;
      }
 }
