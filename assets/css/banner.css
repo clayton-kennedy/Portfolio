@@ -1,0 +1,120 @@
+@media (min-width: 200px) { 
+#banner {
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 1em;
+     padding-top: 5em;
+     background: linear-gradient(180deg, #ededed, white);
+}
+#banner div{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+}
+.textBanner1 {
+     color: red;
+     font-size: 1.5em;
+     font-weight: 400;
+     text-shadow: 0px 2px 2px rgba(155, 155, 155, 0.548);
+}
+.textBanner2 {
+     color: rgb(0, 0, 0);
+     font-size: 4.5em;
+     font-weight: 500;
+     text-shadow: 0px 5px 5px rgb(155, 155, 155);
+     line-height: 80% ;
+}
+.textBanner3 {
+     color: red;
+     font-size: 1.2em;
+     font-weight: 400;
+     text-shadow: 0px 3px 5px rgb(203, 203, 203);
+}
+#textPlaceholder {
+     color: white;
+}
+.textBanner3, #textPlaceholder{
+     margin: 2em 0;
+     margin-top: 2em;
+}
+.imgBanner {
+     justify-content: flex-end;
+}
+.imgBanner img{
+     width: 35px;
+     height: 35px;
+}
+}
+@media (min-width: 750px) {
+     #banner {
+          flex-direction: row;
+          justify-content: space-between;
+          height: 600px;
+     }
+     #myPicture {
+          width: 300px;
+          height: 300px;
+     }
+     .textBanner1 {
+          font-size: 1.5em;
+     }
+     .textBanner2 {
+          font-size: 2.7em;
+          font-weight: 500;
+          margin-bottom: 3em;
+     }
+     .textBanner3 {
+          font-size: 2em;
+     }
+}
+@media (min-width: 1000px) {
+     #banner {
+          flex-direction: row;
+          justify-content: space-between;
+     }
+     #myPicture {
+          width: 500px;
+          height: 500px;
+     }
+     .textBanner1 {
+          font-size: 1.5em;
+     }
+     .textBanner2 {
+          font-size: 3.7em;
+          font-weight: 500;
+     }
+     .textBanner3 {
+          font-size: 2em;
+     }
+}
+@media (min-width: 1250px) {
+     #banner {
+          justify-content: space-around;
+          height: 800px;
+          width: 100vw;
+     }
+}
+@media (min-width: 1500px) {
+     #banner {
+          width: 99.1vw;
+          margin: 0 auto;
+          padding: 0 10em;
+     }
+     .textBanner1 {
+          font-size: 1.5em;
+          font-weight: 500;
+     }
+     .textBanner2 {
+          font-size: 6em;
+          line-height: 80%;
+          margin-bottom: 2em;
+     }
+     .textBanner3 {
+          font-size: 1.8em;
+          font-weight: 400;
+     }
+}

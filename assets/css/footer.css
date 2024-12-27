@@ -1,0 +1,204 @@
+
+@media (min-width: 200px) {
+     
+#contacts {
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     margin: auto;
+}
+#contacts span {
+     font-size: 2em;
+     margin: 1em auto;
+     text-align: center;
+}
+.socialMedia {
+     width: 100%;
+     height: auto;
+     margin: 1em auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+.socialMedia div {
+     display: flex;
+     flex-direction: row;
+}
+.socialMedia img {
+     width: 100px;
+     height: 100px;
+     margin: 0 5px;
+}
+.socialMedia img:hover {
+     opacity: 0.8;
+}
+.formulary {
+     width: 80%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-start;
+     margin: 1em auto;
+     font-size: 1.3em;
+     font-size: 1em;
+}
+.formulary input {
+     width: 100%;
+     padding: 0.5em;
+     outline: none;
+     letter-spacing: 1px;
+     margin: 0.5em auto;
+     border-radius: 5px;
+}
+.formulary #email, .formulary #whats {
+     width: 100%;
+}
+.formulary textarea {
+     width: 100%;
+     border-radius: 5px;
+     padding: 1em;
+     font-size: 1.3em;
+     margin: 0;
+     outline: none;
+}
+.formulary button {
+     padding: 0.5em 1em;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 1.3em;
+}
+
+}
+@media (min-width: 420px) {
+     .formulary {
+          width: 80%;
+     }
+     .formulary input {
+          padding: 0.5em;
+     }
+     #contacts span {
+          font-size: 1.5em;
+     }
+     .formulary textarea {
+          width: 100%;
+          border-radius: 5px;
+          padding: 1em;
+          font-size: 1.3em;
+          margin: 0;
+          outline: none;
+     }
+     .formulary button {
+          padding: 1em 1em;
+          font-size: 1em;
+     }
+}
+@media (min-width: 750px) {
+     .formulary button {
+          padding: 1em 2em;
+          font-size: 1em;
+     }
+}
+@media (min-width: 1000px) {
+     .formulary button {
+          padding: 1em 2em;
+          font-size: 1em;
+     }
+     #contacts {
+          width: 80%;
+          flex-direction: row;
+          margin: 0 auto;
+          justify-content: flex-start;
+     }
+     .socialMedia {
+          margin: 0 auto;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+     }
+     .socialMedia img {
+          width: 80px;
+          height: 80px;
+          margin: 0 5px;
+     }
+}
+@media (min-width: 1500px) {
+
+     #contacts {
+          width: 50%;
+          height: 700px;
+          display: flex;
+          justify-content: space-between;
+          margin: auto;
+     }
+     #contacts span {
+          font-size: 2em;
+          margin: 1em auto;
+     }
+     .socialMedia {
+          width: 40%;
+          height: auto;
+          margin: 1em auto;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+     }
+     .socialMedia div {
+          display: flex;
+          flex-direction: row;
+     }
+     .socialMedia img {
+          width: 100px;
+          height: 100px;
+          margin: 0 5px;
+     }
+     .socialMedia img:hover {
+          opacity: 0.8;
+     }
+     .formulary {
+          width: 40%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          margin: 1em auto;
+          font-size: 1.3em;
+          font-size: 1em;
+     }
+     .formulary input {
+          width: 100%;
+          padding: 0.3em 1em;
+          outline: none;
+          letter-spacing: 1px;
+          margin: 0.5em auto;
+          border-radius: 5px;
+     }
+     .formulary #email, .formulary #whats {
+          width: 100%;
+     }
+     .formulary textarea {
+          width: 100%;
+          border-radius: 5px;
+          padding: 1em;
+          font-size: 1.3em;
+          margin: 0.4em 0;
+          outline: none;
+     }
+     .formulary button {
+          padding: 0.3em 0.6em;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 1.3em;
+     }
+     .formulary button:hover {
+          color: white;
+          background-color: black;
+     }
+     
+}

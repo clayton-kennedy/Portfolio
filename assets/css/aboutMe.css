@@ -1,0 +1,314 @@
+
+@media (min-width: 200px) {
+     
+#aboutMe {
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     margin: 0 auto;
+     margin-bottom: 1em;
+     padding: 0;
+}
+.experiences {
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 1em;
+}
+.experiences u{
+     text-align: center;
+     margin: 1em auto;
+}
+.titleExperiences {
+     text-align: center;
+     margin: auto;
+     font-size: 1.5em;
+     font-weight: bold;
+     text-shadow: 0px 1px 10px rgba(255, 0, 0, 0.547);
+}
+.spanAbout {
+     width: auto;
+     margin: 0 auto;
+     padding: 1em;
+     text-align: justify;
+     font-size: 1em;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-start;
+     text-indent: 12%;
+}
+/* Experiências */
+.expProf {
+     width: 100%;
+     height: auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     align-items: center;
+     justify-content: center;
+}
+.expProf div {
+     width: auto;
+     height: 120px;
+     background-color: #ededed;
+     overflow: hidden;
+     padding: 0.5em;
+     border-radius: 1em;
+     font-size: 0.8em;
+     text-align: center;
+     justify-content: space-between;
+     margin: 5px;
+}
+.expProf bold {
+     font-weight: bold;
+}
+.expProf div:hover {
+     background-color: #ff000041;
+}
+.expProf span {
+     text-align: center;
+     font-size: 0.9em;
+}
+/* Cursos */
+.cursos {
+     width: 100%;
+     height: auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     align-items: center;
+     justify-content: center;
+     padding: 1em;
+}
+.cursos img {
+     width: 50px;
+     height: 50px;
+}
+.cursos div {
+     width: 190px;
+     height: 120px;
+     padding: 0.5em;
+     background-color: #ededed;
+     margin: 5px;
+     text-align: center;
+     border-radius: 1em;
+}
+.cursos div:hover {
+     cursor: pointer;
+     filter: none;
+     background-color: #ff000041;
+}
+.cursos span {
+     font-size: 0.9em;
+     margin: 0 0.3em;
+}
+.imgJS {
+     border-radius: 10px;
+}
+}
+@media (min-width: 420px) {
+     #aboutMe {
+          height: auto;
+     }
+     .expProf div {
+          width: 130px;
+          height: 100px;
+          font-weight: 500;
+     }
+     .cursos div {
+          height: 130px;
+     }
+     .cursos span {
+          font-size: 1em;
+          text-align: center;
+     }
+}
+@media (min-width: 750px) {
+     .expProf div {
+          width: 10em;
+          height: 5.5em;
+          font-size: 1.2em;
+          font-weight: 400;
+     }
+     .spanAbout {
+          font-size: 1.2em;
+     }
+     .cursos {
+          grid-template-columns: 1fr 1fr 1fr;
+     }
+     .cursos div {
+          width: 10em;
+          height: 9em;
+     }
+     .cursos span {
+          font-size: 1.3em;
+     }
+}
+@media (min-width: 1000px) {
+     #aboutMe {
+          height: auto;
+     }
+     .titleExperiences {
+          font-size: 2em;
+     }
+     .spanAbout {
+          font-size: 1.3em;
+     }
+     .expProf {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+     .expProf div {
+          font-size: 1.4em;
+     }
+     .cursos {
+          grid-template-columns: 1fr 1fr 1fr;
+     }
+     .cursos div {
+          width: 17em;
+          height: 6em;
+          font-size: 1em;
+          text-align: center;
+     }
+}
+@media (min-width: 1250px) {
+     #aboutMe {
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          margin: 0 auto;
+          margin-bottom: 1em;
+          padding: 0;
+     }
+     .experiences {
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 1em;
+     }
+     .experiences u{
+          text-align: center;
+          margin: 1em auto;
+     }
+     .titleExperiences {
+          text-align: center;
+          margin: auto;
+          font-size: 1.5em;
+          font-weight: bold;
+          text-shadow: 0px 1px 10px rgba(255, 0, 0, 0.547);
+     }
+     .spanAbout {
+          width: auto;
+          margin: 0 auto;
+          padding: 1em;
+          text-align: justify;
+          font-size: 1em;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          text-indent: 12%;
+     }
+     /* Experiências */
+     .expProf {
+          width: 100%;
+          height: auto;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          align-items: center;
+          justify-content: center;
+     }
+     .expProf div {
+          width: auto;
+          height: 4em;
+          background-color: #ededed;
+          overflow: hidden;
+          padding: 0.5em;
+          border-radius: 1em;
+          font-size: 0.8em;
+          text-align: center;
+          justify-content: space-between;
+          margin: 5px;
+     }
+     .expProf bold {
+          font-weight: bold;
+     }
+     .expProf div:hover {
+          background-color: #ff000041;
+     }
+     .expProf span {
+          text-align: center;
+          font-size: 0.9em;
+     }
+     /* Cursos */
+     .cursos {
+          width: 100%;
+          height: auto;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          align-items: center;
+          justify-content: center;
+          padding: 1em;
+     }
+     .cursos img {
+          width: 50px;
+          height: 50px;
+     }
+     .cursos div {
+          width: 13em;
+          height: 6em;
+          padding: 0.5em;
+          background-color: #ededed;
+          margin: 5px;
+          text-align: center;
+          border-radius: 1em;
+     }
+     .cursos div:hover {
+          cursor: pointer;
+          filter: none;
+          background-color: #ff000041;
+     }
+     .cursos span {
+          font-size: 0.9em;
+          margin: 0 0.3em;
+     }
+     .imgJS {
+          border-radius: 10px;
+     }
+}
+@media (min-width: 1500px) {
+     #aboutMe {
+          width: 80%;
+          margin: 0 auto;
+     }
+     .expProf {
+
+     }
+     .exp {
+          width: auto;
+          height: auto;
+          padding: 0;
+          font-size: 1em;
+          margin: 0;
+     }
+     .cursos {
+          grid-template-columns: 1fr 1fr 1fr;
+     }
+     .cursos div {
+          width: 18em;
+          height: 4em;
+     }
+}
