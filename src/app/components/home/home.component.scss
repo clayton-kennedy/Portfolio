@@ -1,0 +1,54 @@
+
+@import "../../Variaveis/colors.scss";
+
+main {
+    width: 100%;
+    height: 80%;
+    display: flex;
+
+    .esquerda {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 3em;
+            color: $cor-terciaria;
+        }
+        h3 {
+            text-align: start;
+            color: $cor-quartenaria;
+        }
+        img {
+            height: 35px;
+            width: 35px;
+            margin: 20px 5px;
+        }
+        img:hover {
+            transform: scale(1.3);
+        }
+    }
+    .direita {
+        width: 40%;
+        height: 100%;;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+
+        img {
+            height: 22em;
+            width: 20em;
+        }
+    }
+}
+.contador {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}

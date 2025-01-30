@@ -19,6 +19,7 @@
           "options": {
             "outputPath": "dist/portfolio",
             "index": "src/index.html",
+              "baseHref": "/Portfolio/",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -26,10 +27,8 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
               "src/styles.scss"
@@ -98,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5afb6d05-41df-474e-8342-e13545026bd7"
   }
 }
