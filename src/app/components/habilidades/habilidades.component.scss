@@ -13,6 +13,7 @@ main {
         justify-content: start;
         text-align: justify;
         padding: 5em;
+        padding-top: 10em;
         color: $cor-primaria;
     }
     .direita {
@@ -20,8 +21,8 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        padding-top: 3em;
+        justify-content: start;
+        padding-top: 5em;
 
         .titulo {
             display: flex;

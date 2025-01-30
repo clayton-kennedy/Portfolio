@@ -10,7 +10,7 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
         padding: 5em;
         color: $cor-primaria;
 
@@ -28,7 +28,7 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
         color: $cor-primaria;
 
         input, textarea {
