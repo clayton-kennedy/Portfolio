@@ -1,0 +1,42 @@
+
+@import "./Variaveis/colors.scss";
+
+section {
+  width: 100%;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3em;
+  background-color: $cor-secundaria;
+  z-index: 10;
+  
+  .menuTopo{
+    border: 2px solid orange;
+  }
+  .saudacoes {
+      color: $cor-quartenaria;
+      font-size: 1.5em;
+  }
+          a {
+              text-decoration: none;
+              color: $cor-primaria;
+              margin: 0 10px;
+              cursor: pointer;
+          }
+          a:hover {
+              color: $cor-terciaria;
+          }
+}
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  
+  router-outlet + * {
+    width: 100%;
+    height: 100%;
+  }
